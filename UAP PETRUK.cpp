@@ -5,7 +5,8 @@ using namespace std;
 
 struct vendingMachine{
 	int top;
-	string data[4];	
+	string data[4];
+	
 };
 string dat;
 
@@ -102,6 +103,4 @@ int main(){
 		else if(pilihan==5){
 			exit(0);
 		}
-	}
-	while(ulang=='y');
-}
+	
